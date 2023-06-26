@@ -59,6 +59,8 @@ perspective: 150rem;
   position: absolute;
   display: grid;
   place-items: center;
+  transform-style: preserve-3D;
+
 }
 
 .circle-1 {
@@ -88,4 +90,5 @@ perspective: 150rem;
   background-color: #e9d8d8;
   position: absolute;
   border-radius: 50%;
+  transform: translateZ(0.3rem);
 }
