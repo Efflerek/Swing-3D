@@ -65,7 +65,18 @@ html {
   }
 
   25% {
-    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(21rem);
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(27rem);
+  }
+
+  35%, 40% {
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(0rem);
+  }
+
+  50% {
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-60rem);
+  }
+  55% {
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-55rem);
   }
 }
 /*ANIMATION CODE END*/
