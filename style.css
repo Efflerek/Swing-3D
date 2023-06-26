@@ -27,8 +27,31 @@ perspective: 150rem;
   height:20rem;
   background-color: rgba(206, 216, 91, 0.7);
   transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
-  transform-style: preserve-3D;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 50%;
 }
+
+/*ANIMATION START*/
+@keyframes swingAnim {
+  0% {
+    transform: rotateX(70deg) rotateZ(-40deg)
+    rotateY(5deg) translateY(100rem);
+  }
+  
+  20% {
+    transform: rotateX(70deg) rotateZ(-40deg)
+    rotateY(5deg) translateY(21rem);
+  }
+
+  25% {
+    transform: rotateX(70deg) rotateZ(-40deg)
+    rotateY(5deg) translateY(21rem);
+  }
+}
+
+/*ANIMATION END*/
+
 
 .swing::before {
   content: "";
