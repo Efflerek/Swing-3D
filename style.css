@@ -19,11 +19,13 @@ html {
 display: flex;
 justify-content: center;
 align-items: center;
+perspective: 150rem;
 }
 
 .swing {
   width: 40rem;
   height:20rem;
   background-color: rgba(206, 216, 91, 0.7);
+  transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg);
 }
 
