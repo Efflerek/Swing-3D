@@ -34,8 +34,12 @@ overflow: hidden;
   transform-origin: top;
 }
 
-/*ANIMATION START*/
+/*ANIMATION CODE START*/
 .swing-1 {
+  animation: swingAnim 20s infinite ease-in-out;
+}
+
+.swing-2 {
   animation: swingAnim 20s infinite ease-in-out;
 }
 
@@ -56,7 +60,7 @@ overflow: hidden;
   }
 }
 
-/*ANIMATION END*/
+/*ANIMATION CODE END*/
 
 
 .swing::before {
