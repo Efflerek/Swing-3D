@@ -189,3 +189,9 @@ html {
   position: absolute;
   transform: translateY(-23rem) rotateZ(-21deg);
 }
+
+.ball {
+  width: 7rem;
+  aspect-ratio: 1;
+  background-image: radial gradient(rgba(159, 238))
+}
