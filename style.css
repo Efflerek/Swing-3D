@@ -69,7 +69,7 @@ html {
   }
 
   35%, 40% {
-    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(0rem);
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(0);
   }
 
   50% {
@@ -77,6 +77,14 @@ html {
   }
   55% {
     transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-55rem);
+  }
+  65%,
+  70% {
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-84rem);
+  }
+
+  100% {
+    transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(-800rem);
   }
 }
 /*ANIMATION CODE END*/
