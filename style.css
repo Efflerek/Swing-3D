@@ -55,6 +55,14 @@ html {
   animation: swingAnim 20s -16s infinite ease-in-out;
 }
 
+.swing-6 {
+  animation: swing6Anim 4s -1s infinite ease-in-out;
+}
+
+.swing-6 div:not(.ball){
+  opacity: 0;
+}
+
 @keyframes swingAnim {
   0% {
     transform: rotateX(70deg) rotateZ(-40deg) rotateY(5deg) translateY(100rem);
